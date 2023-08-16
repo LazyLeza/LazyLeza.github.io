@@ -23,7 +23,7 @@ function displayStats(list) {
     const max = list.length > 0 ? Math.max(...list) : 0;
     
     // return [average, min, max];
-    alert('For the list ' + list + ' the average is ' + average + ', the minimum is ' + min + ', and the maximum is ' + max) 
+    alert('For the list ' + list + ' the average is ' + average.toFixed(2) + ', the minimum is ' + min + ', and the maximum is ' + max) 
 }
 
 while (true) {

@@ -18,7 +18,7 @@ function ShowPrimes(n) {
     while (true) {
         var num = prompt("Enter a positive integer");
         if (num <= 0) {} 
-        else if (!Number.isInteger(num)) {}
+        else if (num % 1 !== 0) {}
         else if (isNaN(parseInt(num))){}
 
         else {
